@@ -13,7 +13,7 @@ gulp.task('pug', function() {
 
 gulp.task('stylus', function() {
 	gulp.src('./src/assets/styles/*.styl')
-			.pipe(stylus())
+			.pipe(stylus({compress: true}))
 			.pipe(gulp.dest('./out/assets/styles/'))
 			.pipe(connect.reload())
 })
