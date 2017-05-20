@@ -1,9 +1,18 @@
 /* Colors */
+/* Box model */
 * {
   box-sizing: border-box;
 }
-/* header
-======================================== */
+/* Dev mode */
+.container {
+  border: 1px dashed;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Partials */
 .header {
   width: 100%;
   background-color: #f06;
@@ -16,8 +25,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-/* menu
-==================== */
 .menu {
   border: 1px dashed;
   display: flex;
@@ -47,8 +54,6 @@
   display: inline-block;
   padding: 10px;
 }
-/* profile
-==================== */
 .profile {
   border: 1px dashed;
   margin-left: auto;
