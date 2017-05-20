@@ -7,19 +7,41 @@ body,
 html {
   height: 100%;
 }
+/* Dev mode */
 body {
   display: flex;
   flex-direction: column;
+  background-color: #333;
+  font-weight: 300;
 }
 .main {
   flex: 1;
+}
+.profile-container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  border: 1px dashed;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+.heading-lv1 {
+  color: #fff;
+  font-family: 'Lobster', 'cursive';
+  font-size: 42px;
+  margin: 5px;
+}
+.paragraph {
+  color: #fff;
 }
 .container-centered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* Dev mode */
 .container {
   border: 1px dashed;
   width: 100%;
