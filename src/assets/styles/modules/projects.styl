@@ -9,14 +9,35 @@
   flex-wrap: wrap
   width: 100%
 
+.projects-list .heading-lv1
+  margin: 20px 0
+
 .project
   border()
+  width: 'calc(%s - %s)' % (100% 10px)
+  background-color: #fff
+  display: flex
+  flex-wrap: wrap
+  padding: 10px
+  margin: 5px
+  @media(min-width: 500px)
+    width: 'calc(%s - %s)' % (50% 10px)
 
 .project-name
-  
-.star-icon
-  fill: highlight-color
+  color: secondary-color
+  margin: 0
+  font-weight: 300
+
+.project-star
+  display: flex
+  align-items: center
+  margin-left: auto
 
 .project-star-count
+  color: secondary-color
+  margin-left: 5px
 
 .project-description
+  color: secondary-color
+  width: 100%
+  margin: 10px 0 0 0
