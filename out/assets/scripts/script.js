@@ -1,3 +1,6 @@
 'use strict';
 
-console.log('ok');
+var foo = function foo(x) {
+  return x;
+};
+foo('André');

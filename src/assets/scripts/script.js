@@ -1,1 +1,2 @@
-console.log('ok')
+const foo = x => x;
+foo('André');
