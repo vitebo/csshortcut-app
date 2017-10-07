@@ -1,6 +1,7 @@
 # CSShortcurt APP
 
 [![Build Status](https://travis-ci.org/vitebo/csshortcut-app.svg?branch=master)](https://travis-ci.org/vitebo/csshortcut-app)
+[![devDependencies Status](https://david-dm.org/vitebo/csshortcut-app/dev-status.svg)](https://david-dm.org/vitebo/csshortcut-app?type=dev)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/vitebo/csshortcut-app/blob/master/LICENSE.md)
 
 > :rocket: A template to help you create open source projects more organized.
