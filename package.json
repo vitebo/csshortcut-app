@@ -31,5 +31,8 @@
     "gulp-pug": "^3.3.0",
     "gulp-stylint": "^4.0.0",
     "gulp-stylus": "^2.6.0"
+  },
+  "dependencies": {
+    "senna": "^2.4.1"
   }
 }

@@ -41,6 +41,10 @@ gulp.task('babel', () =>
       .pipe(gulp.dest('./out/assets/scripts'))
       .pipe(connect.reload()))
 
+gulp.task('senna', () =>
+gulp.src('./node_modules/senna/build/globals/senna-min.js')
+    .pipe(gulp.dest('./out/assets/scripts')))
+
 gulp.task('imagemin', () =>
   gulp.src('src/assets/img/*')
       .pipe(imagemin())
@@ -58,5 +62,5 @@ gulp.task('serve', () =>
     livereload: true
   }))
 
-gulp.task('build', ['pug', 'stylint', 'stylus', 'imagemin', 'lint', 'babel'])
+gulp.task('build', ['pug', 'stylint', 'stylus', 'imagemin', 'lint', 'babel', 'senna'])
 gulp.task('server', ['serve', 'watch'])
