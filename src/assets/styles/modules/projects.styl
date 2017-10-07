@@ -1,43 +1,44 @@
 /* Projects
 ==================== */
 .projects
-  width: 100%
+  width 100%
 
 .projects-list
   border()
-  display: flex
-  flex-wrap: wrap
-  width: 100%
+  display flex
+  flex-wrap wrap
+  width 100%
 
-.projects-list .heading-lv1
-  margin: 20px 0
+.heading-lv1-projects
+  margin 20px 0
 
 .project
   border()
-  width: 'calc(%s - %s)' % (100% 10px)
-  background-color: #fff
-  display: flex
-  flex-wrap: wrap
-  padding: 10px
-  margin: 5px
-  @media(min-width: 500px)
-    width: 'calc(%s - %s)' % (50% 10px)
+  display flex
+  flex-wrap wrap
+  margin 5px
+  padding 10px
+  width 'calc(%s - %s)' % (100% 10px)
+  background-color $light-color
+  @media(min-width 500px)
+    width 'calc(%s - %s)' % (50% 10px)
 
 .project-name
-  color: secondary-color
-  margin: 0
-  font-weight: 300
+  margin 0
+  color $secondary-color
+  font-weight 300
 
 .project-star
-  display: flex
-  align-items: center
-  margin-left: auto
+  display flex
+  align-items center
+  margin-left auto
 
 .project-star-count
-  color: secondary-color
-  margin-left: 5px
+  margin-left 5px
+  color $secondary-color
 
 .project-description
-  color: secondary-color
-  width: 100%
-  margin: 10px 0 0 0
+  margin 0
+  margin-top 10px
+  width 100%
+  color $secondary-color
