@@ -4,14 +4,14 @@
 [![devDependencies Status](https://david-dm.org/vitebo/csshortcut-app/dev-status.svg)](https://david-dm.org/vitebo/csshortcut-app?type=dev)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/vitebo/csshortcut-app/blob/master/LICENSE.md)
 
-> :rocket: A template to help you create open source projects more organized.
+[view in gh-pages](https://vitebo.github.io/csshortcut-app/index.html)
 
 ## Stack
 
 - Task Runner: [Gulp](http://gulpjs.com/)
 - HTML Template Engine: [Pug](https://pugjs.org/api/getting-started.html)
 - CSS Preprocessor: [Stylus](http://stylus-lang.com/)
-- JS Transpiler: [babel](https://babeljs.io/)
+- JS Transpiler: [Babel](https://babeljs.io/)
 
 ## Run the project locally
 
@@ -67,6 +67,7 @@ $ gulp server
 
 - `$ gulp build`: Compile, concat and minify all files.
 - `$ gulp server`: Watch the files to build and start a static server.
+- `$ gulp deploy`: Deploy for gh-pages.
 
 ## Versioning
 
