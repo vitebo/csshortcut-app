@@ -24,9 +24,9 @@ gulp.task('stylus', () =>
       .pipe(connect.reload()))
 
 gulp.task('stylint', () =>
-gulp.src(['./src/assets/styles/*.styl', './src/assets/styles/modules/*.styl'])
-    .pipe(stylint({config: '.stylintrc'}))
-    .pipe(stylint.reporter()))
+  gulp.src(['./src/assets/styles/*.styl', './src/assets/styles/modules/*.styl'])
+      .pipe(stylint({config: '.stylintrc'}))
+      .pipe(stylint.reporter()))
 
 gulp.task('lint', () =>
   gulp.src(['./src/assets/scripts/script.js'])
@@ -42,7 +42,7 @@ gulp.task('babel', () =>
       .pipe(connect.reload()))
 
 gulp.task('senna', () =>
-gulp.src('./node_modules/senna/build/globals/senna-min.js')
+  gulp.src('./node_modules/senna/build/globals/senna-min.js')
     .pipe(gulp.dest('./out/assets/scripts')))
 
 gulp.task('imagemin', () =>
