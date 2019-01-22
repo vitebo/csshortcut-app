@@ -4,7 +4,7 @@
 [![devDependencies Status](https://david-dm.org/vitebo/csshortcut-app/dev-status.svg)](https://david-dm.org/vitebo/csshortcut-app?type=dev)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/vitebo/csshortcut-app/blob/master/LICENSE.md)
 
-[view in gh-pages](https://vitebo.github.io/csshortcut-app/index.html)
+[view in gh-pages](https://vitebo.github.io/csshortcut_app/index.html)
 
 ## Stack
 
